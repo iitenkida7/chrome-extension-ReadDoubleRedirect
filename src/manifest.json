@@ -1,0 +1,12 @@
+{
+    "name": "RedirectReadouble",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Redirect Readouble",
+    "content_scripts": [{
+      "matches": ["https://readouble.com/laravel/*"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
