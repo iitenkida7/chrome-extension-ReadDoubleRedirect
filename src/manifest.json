@@ -1,12 +1,17 @@
 {
     "name": "RedirectReadouble",
     "version": "1.0.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "description": "Redirect Readouble",
+    "permissions": ["activeTab","declarativeContent", "storage"],
     "content_scripts": [{
       "matches": ["https://readouble.com/laravel/*"],
       "js": [
         "content.js"
       ]
-    }]
+    }],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "images/laravel_icon.png"
+    }
   }
