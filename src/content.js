@@ -1,18 +1,17 @@
+chrome.storage.sync.get("version", function (value) {
+    if (typeof value.version === 'undefined') {
+        return false;
 
-var laravel_version = '8.x';
+    } else {
+        if (getLaravelVersion() != value.version) {
+            $originUrl = parseUrl();
+            $originUrl[2] = value.version;
+            location.href = $originUrl.join('/');
+        }
+    }
+});
 
-// ローカルストレージ利用例
-//localStorage.setItem('laravel_version', '8.x');
-//laravel_version = localStorage.getItem('laravel_version')
-
-if (getLaravelVersion() != laravel_version){
-    $originUrl = parseUrl();
-    $originUrl[2] = laravel_version;
-    location.href=$originUrl.join('/');
-}
-
-function parseUrl()
-{
+function parseUrl() {
     /*
     0: ""
     1: "laravel"
@@ -23,7 +22,6 @@ function parseUrl()
     return location.pathname.split('/');
 }
 
-function getLaravelVersion(){
-
+function getLaravelVersion() {
     return location.pathname.split('/')[2];
 }
