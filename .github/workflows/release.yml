@@ -27,7 +27,7 @@ jobs:
 
       - name: Archive
         run: |
-          zip -r ${{ steps.version.outputs.filename }}.zip ./stc -x "*.git*"
+          zip -r ${{ steps.version.outputs.filename }}.zip ./src -x "*.git*"
 
       - name: Create Release
         id: create_release
