@@ -2,7 +2,7 @@ name: Upload Release Archive
 on:
   push:
     tags:
-      - "v.*"
+      - 'v*'
 
 # ref: https://github.com/firewood/iOSDC2020-Talk-Sample/blob/main/.github/workflows/release.yml
 
