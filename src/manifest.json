@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "manifest_version": 3,
     "description": "Redirect Readouble",
-    "permissions": ["activeTab","declarativeContent", "storage"],
+    "permissions": ["declarativeContent", "storage"],
     "content_scripts": [{
       "matches": ["https://readouble.com/laravel/*"],
       "js": [

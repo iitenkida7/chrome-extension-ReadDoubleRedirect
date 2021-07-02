@@ -6,9 +6,8 @@ chrome.storage.sync.get("version", function (value) {
         location.href = getNewUri(value.version);
     } else if (getLaravelVersion() == value.version) {
         chrome.storage.local.get("hasRedirect", function (value) {
-            console.log(value); // debug
             chrome.storage.local.remove("hasRedirect", function () { });
-            document.body.insertAdjacentHTML("beforeend", "<div class='chrome-plugin'>@todo: モーダル</div>");
+            //document.body.insertAdjacentHTML("beforeend", "<div class='chrome-plugin'>@todo: モーダル</div>");
         });
     }
 
