@@ -1,11 +1,11 @@
 # ReadDoubleRedirect
-* [Chrome ウェブストア ReadDoubleRedirect](https://chrome.google.com/webstore/detail/redirectreadouble/dhjhhbpfjibmbanhflnpcmmlnjjdpopn?hl=ja&authuser=0)
+* [Chrome ウェブストア RedirectReadouble](https://chrome.google.com/webstore/detail/redirectreadouble/dhjhhbpfjibmbanhflnpcmmlnjjdpopn?hl=ja&authuser=0)
 
 ## 概要
 
-* これは、Chrome の プラグインです。
+* Google Chrome の拡張機能です。
 * あらかじめ、設定画面で自身の使っている、Laravelバージョンを設定しておくと、
-* Laravel 日本語ドキュメントの URLを設定したバージョンに書き換えてリダイレクトします。
+* [Laravel 日本語ドキュメント](https://readouble.com/)の URLを設定したバージョンに書き換えてリダイレクトします。
 * 例）設定が Laravel8 の場合
   - https://readouble.com/laravel/5.8/ja/collections.html
 
@@ -15,9 +15,9 @@
 <img src="./readme_content/screenshot.png">
 
 ## 免責事項
-* https://readouble.com/ の運営元とは一切関係ない、オレオレツールです。
-* プラグインに関する問い合わせは、https://readouble.com/ に行わないでください。
-* https://readouble.com/ には大変お世話になっております。この場を借りて感謝をお伝えします。
+* [Laravel 日本語ドキュメント](https://readouble.com/) の運営元とは一切関係ない、オレオレツールです。
+* この、Google Chrome 拡張機能に関する問い合わせは、[Laravel 日本語ドキュメント](https://readouble.com/) に行わないでください。
+* [Laravel 日本語ドキュメント](https://readouble.com/) には大変お世話になっております。この場を借りて感謝をお伝えします。
 
 
 ## 実装の参考にしたサイト
