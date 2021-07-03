@@ -1,22 +1,27 @@
-## あなたの使っているLaravelバージョンに合わせて ReadDouble のURLを書き換え
+# ReadDoubleRedirect
+* [Chrome ウェブストア ReadDoubleRedirect](https://chrome.google.com/webstore/detail/redirectreadouble/dhjhhbpfjibmbanhflnpcmmlnjjdpopn?hl=ja&authuser=0)
 
-* 'Laravel'で検索すると必ず、ワードで必ず Hitするのが、
-    * `https://readouble.com/laravel/` のページ。
-    * メンテしていただいているかたには感謝しかありません。まじリスペクト。
+## 概要
 
-* 検索結果に出てくるリンクは必ずしも自分が使っているLaravelバージョンではない。
-    - 画面右上の設定ボタンから、かんたんに自分の利用しているバージョンにジャンプすることも可能
-    - もっとサクッと意識しないで、ジャンプしたい！
-    - 自分の指定したLaravelバージョンに 自動的にリダイレクトしてしまおう！という発想。
+* これは、Chrome の プラグインです。
+* あらかじめ、設定画面で自身の使っている、Laravelバージョンを設定しておくと、
+* Laravel 日本語ドキュメントの URLを設定したバージョンに書き換えてリダイレクトします。
+* 例）設定が Laravel8 の場合
+  - https://readouble.com/laravel/5.8/ja/collections.html
+
+  - → https://readouble.com/laravel/8.x/ja/collections.html
+* これでスムーズにLaravel日本語ドキュメントを閲覧することが可能です。
+
+<img src="./readme_content/screenshot.png">
 
 ## 免責事項
-* Chrome拡張の開発がどんなものか軽く触って見ようと思って作ったものなので、
-    - 楽しくなれば、もっと開発していくかもしれないし、
-    - ちょっと触って満足すれば、それで終わりかもしれない。
+* https://readouble.com/ の運営元とは一切関係ない、オレオレツールです。
+* プラグインに関する問い合わせは、https://readouble.com/ に行わないでください。
+* https://readouble.com/ には大変お世話になっております。この場を借りて感謝をお伝えします。
 
-* 参考にした リファレンス
-    - [Chrome拡張の作り方 (超概要)](https://qiita.com/RyBB/items/32b2a7b879f21b3edefc)
-      - これだけで、できた。感謝。
-    - [Chromeの拡張機能を自作する](https://toranoana-lab.hatenablog.com/entry/2020/04/23/174421)
-      - 設定メニューの表示のノウハウを参考にした。感謝。
-    - [公式のサンプルスクリプト](https://github.com/GoogleChrome/chrome-extensions-samples)
+
+## 実装の参考にしたサイト
+
+- [Chrome拡張の作り方 (超概要)](https://qiita.com/RyBB/items/32b2a7b879f21b3edefc)
+- [Chromeの拡張機能を自作する](https://toranoana-lab.hatenablog.com/entry/2020/04/23/174421)
+- [公式のサンプルスクリプト](https://github.com/GoogleChrome/chrome-extensions-samples)
