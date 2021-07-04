@@ -1,4 +1,4 @@
-# ReadDoubleRedirect
+# RedirectReadouble
 * [Chrome ウェブストア RedirectReadouble](https://chrome.google.com/webstore/detail/redirectreadouble/dhjhhbpfjibmbanhflnpcmmlnjjdpopn?hl=ja&authuser=0)
 
 ## 概要
