@@ -8,6 +8,8 @@ var versions = [
               "6.x",
               "7.x",
               "8.x",
+              "9.x",
+  
 ];
 
 chrome.storage.sync.get("version", function (value) {
